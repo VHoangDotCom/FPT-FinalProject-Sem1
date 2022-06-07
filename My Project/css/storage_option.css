@@ -1,0 +1,84 @@
+#content h1{
+   font-size: 35px;
+   margin-top: 30px;
+   
+}
+#img2{
+   margin: 40px -15px 45px 20px;
+}
+.part-1 button{
+    padding:10px;
+    width: 30%;
+   color:white;
+    border-radius: 20px;
+    border:none;
+    background-color:rgba(54, 132, 206, 0.7);
+    font-size: 30px;
+     margin: 5px 200px 5px 400px;
+}
+.part-1 button:hover{
+    color:white;
+    background-color:mediumslateblue;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24),0 12px 35px 0 rgba(0,0,0,0.19);
+}
+.part-2{
+    font-family:sans-serif;
+}
+.part-2 h1{
+    text-align: center;
+    font-size: 15px;
+    color:rgba(0,0,0,0.7);
+}
+.part-2 p{
+    font-size: 15px;
+    color: #1b5c72;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.part-3{
+    display: inline-flex;
+    margin: 20px 0 0 30px;
+}
+.part-3 .part-3-l{
+    width:60%;
+    font-size: 15px;
+    color: #1b5c72;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    word-spacing: 1px;
+}
+.part-3 .part-3-l h1{
+    color:rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.part-4{
+    display: inline-flex;
+    margin: 30px 0 0 30px;
+}
+.part-4 .part-4-r{
+    width:60%;
+    font-size: 15px;
+    color: #1b5c72;
+    letter-spacing: 1px;
+    margin: 75px 0 0 20px;
+    word-spacing: 1px;
+}
+.part-4 .part-4-r h1{
+    color:rgba(0,0,0,0.7);
+    text-align: center;
+}
+.part-4 img{
+    width:50%;
+}
+.part-5{
+    margin: 40px 0 0 40px;
+}
+.part-5 p{
+    text-align: center;
+    font-size: 17px;
+    color: #1b5c72;
+    letter-spacing: 1px;
+   
+    word-spacing: 1px;
+}
