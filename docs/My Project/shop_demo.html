@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/shop_demo.js"></script>
+</head>
+<body>
+
+<div id="Main">
+
+    <h1 align="center"> Welcome to our Online Shopping Site </h1> <hr>
+
+    <p align="center"> View Cart    <a href="#" onclick="return show('Cart','Main');"> cart<img src="cart.jpg" height=50px width=45px> </img> </a> </p>
+
+    <table id="Items" align="center" border="1" bgcolor="lightgreen">
+
+        <tr>
+            <td>Apple®</td>
+            <td>iPad® with Wi-Fi + 3G 16GB</td>
+            <td>$429.99</td>
+            <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
+        </tr>
+
+        <tr>
+            <td>Apple®</td>
+            <td>iPad® mini Wi-Fi - 16GB - White & Silver</td>
+            <td>$329.99</td>
+            <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
+        </tr>
+
+        <tr>
+            <td>HTC®</td>
+            <td>HTC First® - Black;</td>
+            <td>$99.99</td>
+            <td> <input type="image" src="cart.jpg" name="Cart" height="50px" width="45px" onclick="AddtoCart()"> </td>
+        </tr>
+
+    </table>
+
+</div>
+
+<div id="Cart" style="display:none">
+
+    <h1 align="center">Online Shopping Cart</h1>
+
+    <table id="tablecart" align="center" border="1" bgcolor="lightgreen">
+
+        <tr>
+            <td>Total</td>
+            <td id="Total"></td>
+        </tr>
+    </table>
+
+    <p align="center"> <a href="#" onclick="return show('Main','Cart');">Return</a> </p>
+
+</div>
+
+
+</body>
+
+</html>
